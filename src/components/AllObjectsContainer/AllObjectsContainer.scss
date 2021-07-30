@@ -1,0 +1,124 @@
+.main-content {
+  .characters-wrapper {
+    .all-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 50px 100px;
+      justify-content: center;
+      @media(max-width: 1200px) {
+        margin: 50px 20px;
+      }
+
+      .block {
+        max-width: 200px;
+        max-height: 330px;
+        margin-right: 35px;
+        margin-bottom: 60px;
+        cursor: pointer;
+        @media(max-width: 576px) {
+          margin-right: 0;
+        }
+
+        .image {
+          margin-bottom: -5px;
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+        }
+
+        .name-wrapper {
+          background: white;
+          text-align: center;
+          padding: 10px 0;
+
+          .name {
+            margin: 0;
+          }
+        }
+      }
+    }
+
+    .personal-information-wrapper {
+      display: none;
+      padding-bottom: 50px;
+      margin: 50px 100px;
+      @media(max-width: 576px) {
+        margin: 50px 20px;
+      }
+
+      .info-wrapper {
+        display: flex;
+        width: auto;
+        height: 500px;
+        @media(max-width: 1200px) {
+          flex-wrap: wrap;
+        }
+
+        .other {
+          margin-right: 50px;
+          background: white;
+          width: 800px;
+          overflow: scroll;
+          height: 500px;
+          @media(max-width: 1200px) {
+            height: auto;
+            margin-bottom: 20px;
+            margin-right: 0;
+          }
+
+          .title {
+            text-align: center;
+            padding: 0 20px;
+            background: black;
+            color: white;
+            text-transform: uppercase;
+          }
+
+          .all-wrapper {
+            display: flex !important;
+            justify-content: space-around;
+            margin: 10px;
+
+            .block {
+              margin-right: 0;
+
+              .name-wrapper {
+                height: 15px;
+                background-color: black;
+                color: white;
+              }
+            }
+          }
+        }
+
+        .wrap {
+          display: flex;
+
+          .left-column {
+            .img {
+              height: 100%;
+              width: 450px;
+              object-fit: cover;
+            }
+          }
+
+          .right-column {
+            width: 320px;
+            background: white;
+            color: black;
+            padding-left: 20px;
+
+            p {
+              font-size: 20px;
+            }
+
+            .name-block {
+              font-size: 24px;
+              text-transform: uppercase;
+            }
+          }
+        }
+      }
+    }
+  }
+}
