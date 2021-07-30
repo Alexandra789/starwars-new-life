@@ -5,6 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  background-image: url("https://i.pinimg.com/originals/b8/3b/21/b83b211182946897880775c9a504957c.gif");
+  font-family: sans-serif;
 }
 
 code {
