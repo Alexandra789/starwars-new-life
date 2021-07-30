@@ -1,0 +1,20 @@
+.header {
+  .logo {
+    margin-top: 15px;
+    text-align: center;
+
+    &__title {
+      font-size: 5em;
+      color: black;
+      -webkit-text-stroke: 1px #FFEE58;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    &__subtitle {
+      color: white;
+      margin: -10px 0;
+      font-size: 1em;
+    }
+  }
+}
